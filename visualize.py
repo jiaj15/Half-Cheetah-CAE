@@ -58,4 +58,5 @@ if __name__ == "__main__":
     sns.distplot(data1,label='left')
     sns.distplot(data2,label='right')
     plt.legend()
+    plt.savefig('z_distribution.png')
     plt.show()
